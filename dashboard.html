@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dashboard - Student App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">StudentApp</div>
+    <nav class="nav">
+      <a href="dashboard.html" class="nav-link">Dashboard</a>
+      <a href="students.html" class="nav-link">Students</a>
+      <a href="profile.html" class="nav-link">Profile</a>
+      <button id="logoutTop" class="btn small ghost">Logout</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="welcome card">
+      <h2>Welcome, <span id="userWelcome">User</span> 👋</h2>
+      <p class="muted">This is the dashboard. Use the navigation to move between pages.</p>
+      <div class="grid">
+        <div class="tile">
+          <h3>Students</h3>
+          <p class="muted">Add, edit and export student details.</p>
+          <a href="students.html" class="btn">Go to Students</a>
+        </div>
+        <div class="tile">
+          <h3>Profile</h3>
+          <p class="muted">Manage your account details.</p>
+          <a href="profile.html" class="btn">View Profile</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>StudentApp • Responsive demo • No server required</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

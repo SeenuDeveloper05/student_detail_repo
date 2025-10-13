@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Profile - Student App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">StudentApp</div>
+    <nav class="nav">
+      <a href="dashboard.html" class="nav-link">Dashboard</a>
+      <a href="students.html" class="nav-link">Students</a>
+      <a href="profile.html" class="nav-link">Profile</a>
+      <button id="logoutTop3" class="btn small ghost">Logout</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card profile-card">
+      <h2>My Profile</h2>
+      <form id="profileForm" class="form">
+        <div class="field">
+          <label>Username</label>
+          <input id="pUsername" required />
+        </div>
+        <div class="field">
+          <label>Email</label>
+          <input id="pEmail" type="email" />
+        </div>
+        <div class="actions">
+          <button type="submit" class="btn primary">Update Profile</button>
+        </div>
+      </form>
+      <p class="muted">Click update to see a success alert (client-side only).</p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

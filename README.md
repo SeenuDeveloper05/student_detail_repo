@@ -1,0 +1,1 @@
+# student_detail_repo
